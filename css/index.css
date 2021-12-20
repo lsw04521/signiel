@@ -5,11 +5,17 @@
     font-style: normal;
 }
 
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 #wrap {width: 100%; height: auto; margin: 0 auto; background-color: #f1f1f1; position: relative;}
 
 #reserve {width: 1178px; height: 150px; margin: 0 auto; background-color: #8c8b89; position:absolute; top:-75px; left:0; right: 0; color: #fff;}
 .r_box {width: 20%; height: 150px; float: left; padding-top: 30px; padding-left: 30px; cursor: default;}
-.check {border: none; background-color: rgb(0, 0, 0, 0); outline: none;  width: 90px; height: 20px; color: #fff;}
+.check {border: none; background-color: rgb(0, 0, 0, 0); outline: none; width: 100px; height: 20px; color: #fff;}
 
 ::placeholder {color: #fff; opacity: 1;}
 
@@ -29,18 +35,18 @@
 .ct1 {width: 100%; height: 270px;}
 .ct1 img {width: 100%; height: 270px;}
 
-.ct2 {width: 100%; height: 250px; background-color: #fff; text-align: center; margin-top: 50px; color: #777; padding-top: 40px; transition: .3s; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); padding-left: 20px; padding-right: 20px;}
+.ct2 {width: 100%; height: 250px; background-color: #fff; text-align: center; margin-top: 50px; color: #777; padding-top: 35px; transition: .3s; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); padding-left: 20px; padding-right: 20px;}
 .ct2 img {filter: invert(0.3); transition: .3s;}
 .ct2:hover {background-color: #8c8b89; color: #fff;}
 .ct2:hover img {filter: invert(1);}
 
-.ct3 {width: 100%; height: 250px; background-color: #fff; text-align: center; margin-bottom: 50px; color: #777; padding-top: 40px; transition: .3s; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); padding-left: 20px; padding-right: 20px;}
+.ct3 {width: 100%; height: 250px; background-color: #fff; text-align: center; margin-bottom: 50px; color: #777; padding-top: 25px; transition: .3s; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); padding-left: 20px; padding-right: 20px;}
 .ct3 img {filter: invert(0.3); transition: .3s;}
 .ct3:hover {background-color: #8c8b89; color: #fff;}
 .ct3:hover img {filter: invert(1);}
 
 .about_right {width: 578px; height: 600px; margin: 0 auto; color: #666; padding-top: 125px;}
-.abtn {width: 120px; height: 50px; background-color: #1a3129; border: 0px; color: #fff; cursor: pointer; font-size: 13px; transition: .3s; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+.abtn {width: 120px; height: 50px; background-color: #1a3129; border: 0px; color: #fff; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
 .abtn:hover {color: #000; background-color: #fff; border: 1px solid #1a3129;}
 
 #service {width: 1178px; height: 750px; margin: 0 auto; text-align: center; padding-top: 150px;}
@@ -49,13 +55,13 @@
 .m_box img {filter: invert(0); transition: .3s;}
 .m_box:hover img {filter: invert(1);}
 
-#banner {width: 100%; height: 225px; margin: 0 auto; background: url(../img/banner.jpg); background-size: 100% 100%;}
+#banner {width: 100%; height: 225px; margin: 0 auto; background: url(../img/banner.png); background-size:cover; background-attachment: fixed;}
 .banner_case {width: 60%; height: 225px; margin: 0 auto; padding-top: 30px;}
 .banner_case h1 {width: 600px; height: 100px; margin: 0 auto; float: left;}
 .bbtn {width: 120px; height: 50px; background-color: rgba(0, 0, 0, 0); border: 1px solid #fff; color: #fff; transition: .3s; float: right; margin-top: 40px; cursor: pointer;}
 .bbtn:hover {background-color: #8c8b89; border: 0px;}
 
-#room {width: 1178px; height: 900px; margin: 0 auto; text-align: center; padding-top: 100px;}
+#room {width: 1178px; height: 1000px; margin: 0 auto; text-align: center; padding-top: 100px;}
 .room_case {width: 1178px; height: auto; margin: 0 auto; float: left; padding-left: 11px; padding-top: 100px;}
 
 .room1 img {transition: .3s; cursor: pointer;}
@@ -65,6 +71,29 @@
 .room1:hover .room_text {background-color: #8c8b89; color: #fff;}
 
 .room_text {width: 100%; height: 250px; background-color: #fff; float: left; padding-left: 30px; padding-right: 30px; padding-top: 35px; transition: .3s;}
-.room_text h2 {font-family: "Hahmlet-Regular"; font-weight: normal;}
+.room_text h2 {font-weight: normal;}
 .room_text h4 {color: #1a3129;}
 .room_text p {font-size: 13px;}
+
+#signiel {width: 100%; height: 500px; margin: 0 auto;}
+video {width: 100%; height: 400px;}
+
+#guest {width: 100%; height: 700px; margin: 0 auto; text-align: center; padding-left: 15px;}
+#guest_container {width: 1178px; height: 600px; margin: 0 auto; padding-top: 100px;}
+.g_box {width: 32%; height: 275px; float: left; background-color: #fff; margin: 5px; box-shadow: 0.1px 0.1px 5px 0.1px rgb(207, 207, 207); text-align: left; padding: 40px;}
+.g_box img {width: 50px; height: 50px; float: left; border-radius: 50%; margin-right: 20px;}
+.g_box h3 {padding-top: 11px;}
+
+#ban {width: 100%; height: 225px; margin: 0 auto; background-color: #8c8b89;}
+
+#fac {width: 1178px; height: 900px; margin: 0 auto; text-align: center; padding-top: 100px;}
+.fac_box {width: 23%; height: 525px; margin: 1%; background-color: #fff; float: left; margin-top: 70px; border-radius: 2%; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);} 
+.fac_box img {width: 100%; height: 250px; float: left; border-radius: 2% 2% 0% 0%;}
+
+.fac_text {width: 100%; height: 275px; text-align: left; float: left; padding: 20px;}
+.fac_text p {color: #666;}
+
+#gallery {width: 100%; height: 270px; display: flex; flex-direction: row;}
+.g_img {width: 19%; height: 250px; margin: 10px; float: left;}
+.g_img img {width: 100%; height: 250px; transition: .3s ease-in-out; cursor: pointer;}
+.g_img:hover img {filter: invert(0.1);}
