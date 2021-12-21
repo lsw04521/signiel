@@ -53,7 +53,7 @@
 .abtn {width: 120px; height: 50px; background-color: #1a3129; border: 0px; color: #fff; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
 .abtn:hover {color: #000; background-color: #fff; border: 1px solid #1a3129;}
 
-#service {width: 100%; height: 1800px; margin: 0 auto; text-align: center; padding-top: 150px; display: flex; flex-direction: column;}
+#service {width: 90%; height: 1800px; margin: 0 auto; text-align: center; padding-top: 150px; display: flex; flex-direction: column;}
 .m_box {width: 95%; height: 220px; margin: 0 auto; background-color: #fff; transition: .3s ease-in-out; padding-top: 20px; float: left; margin-top: 25px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); cursor: pointer;}
 .m_box:hover {color: #fff; background-color: #1a3129;}
 .m_box img {filter: invert(0); transition: .3s;}
@@ -61,7 +61,7 @@
 
 #banner {width: 100%; height: 250px; margin: 0 auto; background: url(../img/banner.png); background-position: center; background-size:cover; background-attachment: fixed;}
 .banner_case {width: 95%; height: 225px; margin: 0 auto; padding-top: 30px;}
-.banner_case h1 {width: 600px; height: 100px; margin: 0 auto; float: left;}
+.banner_case h1 {width: auto; height: 100px; margin: 0 auto; float: left;}
 .bbtn {width: 120px; height: 50px; background-color: rgba(0, 0, 0, 0); border: 1px solid #fff; color: #fff; transition: .3s; float: right; margin-top: 40px; cursor: pointer;}
 .bbtn:hover {background-color: #8c8b89; border: 0px;}
 
