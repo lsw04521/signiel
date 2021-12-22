@@ -38,9 +38,9 @@
     nav ul a {color: #ccc; font-size: 20px; transition: .2s;}
     nav ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
     
-    footer {width: 100%; height: auto; margin: 0 auto; background-color: #585754; float: left;}
+    footer {width: 100%; height: auto; margin: 0 auto; background-color: #585754; float: left; display: flex;}
     
-    #f_box {width: 95%; height: 450px; margin: 0 auto; padding-top: 100px;}
+    #f_box {width: 95%; height: auto; margin: 0 auto; padding-top: 100px; display: flex; flex-direction: column;}
     
     .f_logo {width: 200px; height: 300px; float: left; color: #f2f2f2; margin-right: 50px;}
     
@@ -56,7 +56,7 @@
 
 @media (min-width:1178px){
 
-    header {width: 100%; height: 800px; padding-top: 45px; background-image: url(../img/header.jpg); background-size:cover; background-attachment: fixed;}
+    header {width: 100%; height: 800px; padding-top: 45px; background-image: url(../img/header.jpg); background-position: center; background-size:cover; background-attachment: fixed;}
     
     #logo {width: auto; height: auto; margin: 0 auto; display: flex; display: flex; justify-content: center; background-color: rgba(255, 255, 255, 0.6);}
     #logo img {opacity: 1;}
@@ -70,14 +70,14 @@
     
     #f_box {width: 1178px; height: 450px; margin: 0 auto; padding-top: 100px;}
     
-    .f_logo {width: 200px; height: 300px; float: left; color: #f2f2f2; margin-right: 50px;}
+    .f_logo {width: 300px; height: 300px; float: left; color: #f2f2f2; margin-right: 40px; padding-top: 10px;}
     
-    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 60px; color: #fff;}
+    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 40px; color: #fff; }
     .f_1 a {color: #fff; transition: .2s}
     .f_1 a:hover {color: #1a3129;}
     .f_1 ul li {margin-bottom: 10px;}
     
-    .f_2 {width: 300px; height: auto; float: right; color: #fff; padding-top: 30px;}
+    .f_2 {width: 300px; height: auto; float: right; color: #fff; padding-top: 20px;}
     .f_2 ul li {margin-bottom: 25px; color: #fff;}
     
     }
