@@ -1,65 +1,40 @@
-$(function(){
-
-    $(window).scroll(function(){
-
-      var ws=$(this).scrollTop();
-
-      // about
-
-      if(ws>350){
-
-        $('#about').css("transform","translateY(0px)").css("opacity","1");
-
-      }
-
-      // about
-
-      if(ws>1000){
-
-      $('#service').css("transform","translateY(0px)").css("opacity","1");
-      
-      }
-
-      // trevi
-
-      if(ws>1500){
-
-      $('.m_box').css("transform","translateY(0px)").css("opacity","1");
-      
-      }
-
-      // banner_case
-
-      if(ws>1700){
-
-      $('.banner_case').css("transform","translateY(0px)").css("opacity","1");
-      
-      }
-
-      // room
-
-      if(ws>2000){
-
-      $('#room').css("transform","translateY(0px)").css("opacity","1");
-      
-      }
-
-      // room_case
-
-      if(ws>2200){
-
-      $('.room_case').css("transform","translateY(0px)").css("opacity","1");
-      
-      }
-
-    });
-
-  });
-
-  //menu
+//menu
 
   $(function(){
     $("#menu").click(function () {
       $(".b").slideToggle()
     });
   });
+
+  //review
+$(function(){
+  function left() {
+      $('#guest_container li:last').prependTo('#guest_container');
+      $('#guest_container').css('margin-left', -373);
+      $('#guest_container').stop().animate({ marginLeft: 0 }, 800);
+  }
+
+  function right() {
+      $('#guest_container').stop().animate({ marginLeft: -373 }, 800,function () {
+          $('#guest_container li:first').appendTo('#  guest_container');
+          $('#guest_container').css({ marginLeft: 0 });
+      });
+  }
+  
+  function slide() {
+      $('#guest_container').stop().animate({ marginLeft: -373 },800, function () {
+          $('#guest_container li:first').appendTo('#guest_container');
+          $('#guest_container').css({ marginLeft: 0 });
+      });
+  }
+  
+  setInterval(slide, 5000);
+  
+  $('.review_left').click(function(){
+      left();
+  });
+  
+  $('.review_right').click(function(){
+      right();
+  });
+});

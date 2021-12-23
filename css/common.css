@@ -1,6 +1,6 @@
 @media (max-width:767px){
 
-    header {width: 100%; height: 800px; background-image: url(../img/header.jpg); background-position: center; background-size:cover; background-attachment: fixed;}
+    header {width: 100%; height: 850px; background-image: url(../img/header.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
 
     #logo {width: auto; height: 60px; padding-top: 10px; margin: 0 auto; display: flex; display: flex; justify-content: center; background-color: rgba(255, 255, 255, 0.6);}
     #logo img {opacity: 1;}
@@ -10,8 +10,8 @@
     .a ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .a ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
 
-    .b {width: 100%; height: 400px; margin: 0 auto; background-color: #333; padding-top: 30px; padding-left: 20px; display: none;}
-    .b ul li {width: 100%;  float: left; padding: 20px 0px;}
+    .b {width: 100%; height: 250px; margin: 0 auto; background-color: #333; padding-top: 10px; padding-left: 20px; display: none; position: relative; left: 0; right: 0;}
+    .b ul li {width: 100%;  float: left; padding: 10px 0px;}
     .b ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .b ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
     
@@ -33,9 +33,9 @@
 
 @media (min-width:768px) and (max-width:1177px){
 
-    header {width: 100%; height: 800px; background-image: url(../img/header.jpg); background-position: center; background-size:cover; background-attachment: fixed;}
+    header {width: 100%; height: 900px; background-image: url(../img/header.jpg); background-position: center; background-size:cover; background-attachment: fixed;}
     
-    #logo {width: auto; height: 60px; padding-top: 10px; margin: 0 auto; display: flex; display: flex; justify-content: center; background-color: rgba(255, 255, 255, 0.6);}
+    #logo {width: auto; height: 60px; padding-top: 10px; margin: 0 auto; display: flex; justify-content: center; background-color: rgba(255, 255, 255, 0.6);}
     #logo img {opacity: 1;}
     
     .a {width: 100%; height: 100px; margin: 0 auto; display: none; justify-content: center; background-color: rgb(0, 0, 0, 0); padding-top: 20px;}
@@ -43,18 +43,18 @@
     .a ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .a ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
 
-    .b {width: 100%; height: 400px; margin: 0 auto; background-color: #333; padding-top: 30px; padding-left: 20px; display: none;}
-    .b ul li {width: 100%;  float: left; padding: 20px 0px;}
+    .b {width: 100%; height: 250px; margin: 0 auto; background-color: #333; padding-top: 10px; padding-left: 20px; display: none; position: relative; left: 0; right: 0;}
+    .b ul li {width: 100%;  float: left; padding: 10px 0px;}
     .b ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .b ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
     
-    footer {width: 100%; height: auto; margin: 0 auto; background-color: #585754; float: left; display: flex;}
+    footer {width: 100%; height: 450px; margin: 0 auto; background-color: #585754; float: left;}
     
-    #f_box {width: 95%; height: auto; margin: 0 auto; padding-top: 100px; display: flex; flex-direction: column;}
+    #f_box {width: 95%; height: 450px; margin: 0 auto; padding-top: 100px; display: flex;}
     
-    .f_logo {width: 200px; height: 300px; float: left; color: #f2f2f2; margin-right: 50px;}
+    .f_logo {width: 30%; height: 300px; float: left; color: #f2f2f2;}
     
-    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 60px; color: #fff;}
+    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-left: 20px; color: #fff; display: flex; flex-direction: column;}
     .f_1 a {color: #fff; transition: .2s}
     .f_1 a:hover {color: #1a3129;}
     .f_1 ul li {margin-bottom: 10px;}
@@ -87,7 +87,7 @@
     
     .f_logo {width: 300px; height: 300px; float: left; color: #f2f2f2; margin-right: 40px; padding-top: 10px;}
     
-    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 40px; color: #fff; }
+    .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 40px; color: #fff;}
     .f_1 a {color: #fff; transition: .2s}
     .f_1 a:hover {color: #1a3129;}
     .f_1 ul li {margin-bottom: 10px;}
