@@ -64,7 +64,7 @@
 .m_box:hover img {filter: invert(1);}
 
 #banner {width: 100%; height: 250px; margin: 0 auto; background: url(../img/banner.png); background-position: center; background-size:cover; background-attachment: fixed;}
-.banner_case {width: 95%; height: 225px; margin: 0 auto; padding-top: 30px;}
+.banner_case {width: 90%; height: 225px; margin: 0 auto; padding-top: 30px;}
 .banner_case h1 {width: auto; height: 100px; margin: 0 auto; float: left;}
 .bbtn {width: 120px; height: 50px; background-color: rgba(0, 0, 0, 0); border: 1px solid #fff; color: #fff; transition: .3s; float: right; margin-top: 40px; cursor: pointer;}
 .bbtn:hover {background-color: #8c8b89; border: 0px;}
@@ -88,11 +88,11 @@ video {width: 100%; height: 400px;}
 
 #guest {width: 100%; height: 700px; margin: 0 auto; text-align: center; padding-left: 15px;}
 
-.guest_show {width: 95%; height: 385px; margin: 0 auto; overflow: hidden;}
+.guest_show {width: 386px; height: 400px; margin: 0 auto; overflow: hidden;}
 
-#guest_container {width: 100%; height: 400px; padding-top: 100px;}
+#guest_container {width: 1544px; height: 400px; padding-top: 100px;}
 
-.g_box {width: 95%; height: 275px; float: left; background-color: #fff; margin: 5px; box-shadow: 0.1px 0.1px 5px 0.1px rgb(207, 207, 207); text-align: left; padding: 40px;}
+.g_box {width: 376px; height: 275px; float: left; background-color: #fff; margin: 5px; box-shadow: 0.1px 0.1px 5px 0.1px rgb(207, 207, 207); text-align: left; padding: 40px;}
 .g_box img {width: 50px; height: 50px; float: left; border-radius: 50%; margin-right: 20px;}
 .g_box h3 {padding-top: 11px;}
 
