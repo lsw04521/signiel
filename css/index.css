@@ -5,13 +5,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'twaysky';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twaysky.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @media (min-width:1178px){
 
 #wrap {width: 100%; height: auto; margin: 0 auto; background-color: #f1f1f1; position: relative;}
