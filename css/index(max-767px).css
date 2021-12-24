@@ -63,7 +63,7 @@
 .m_box img {filter: invert(0); transition: .3s;}
 .m_box:hover img {filter: invert(1);}
 
-#banner {width: 100%; height: 250px; margin: 0 auto; background: url(../img/banner.png); background-position: center; background-size:cover; background-attachment: fixed;}
+#banner {width: 100%; height: 225px; margin: 0 auto; background: url(../img/banner.png); background-position: center; background-size:cover; background-attachment: fixed;}
 .banner_case {width: 90%; height: 225px; margin: 0 auto; padding-top: 30px;}
 .banner_case h1 {width: auto; height: 100px; margin: 0 auto; float: left;}
 .bbtn {width: 120px; height: 50px; background-color: rgba(0, 0, 0, 0); border: 1px solid #fff; color: #fff; transition: .3s; float: right; margin-top: 40px; cursor: pointer;}
