@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Hahmlet-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {width: 100%; height: 450px; background-image: url(../img/header_sub.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
+
+#wrap {width: 1178px; height: 2500px; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
+#wrap_background {width: 100%; height: 2500px; margin: 0 auto; background-color: #f2f2f2;}
+
+#left {width: 60%; height: 2500px;}
+.l_box {width: 100%; height: auto; margin: 0 auto; float: left; background-color: #fff; margin-bottom: 100px;}
+.title {font-family: "Hahmlet-Regular"; transition: .3s ease-in-out; cursor: pointer;}
+.title:hover {color: #1a3129;}
+
+.l_btn {width: 100px; height: 50px; background-color: #1a3129; text-align: center; padding-top: 12.5px; transition: .3s; cursor: pointer;}
+.l_btn:hover {background-color: #fff; border: 1px solid #1a3129;}
+.l_btn:hover a {color: #000;}
+.l_btn a {color: #fff;}
+
+#right {width: 30%; height: 2500px;}
