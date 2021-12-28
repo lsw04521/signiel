@@ -7,7 +7,7 @@
 
 header {width: 100%; height: 525px; background-image: url(../img/header_sub.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
 
-#intro {width: 100%; height: 500px; margin: 0 auto; text-align: center; color: #fff; padding-top: 30px;}
+#intro {width: 100%; height: 500px; margin: 0 auto; text-align: center; color: #fff; padding-top: 31px;}
 #intro h1 {font-size: 4rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
 
 #wrap {width: 1178px; height: 4100px; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
