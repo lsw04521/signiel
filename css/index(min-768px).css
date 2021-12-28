@@ -23,8 +23,9 @@
 
 ::placeholder {color: #fff; opacity: 1;}
 
-.s_box {width: 20%; height: 150px; float: left; padding-top: 60px; background-color: #1a3129; cursor: pointer; transition: .3s ease-in-out;}
-.s_box:hover {border: 1px solid #1a3129; background-color: #fff; color: #000;}
+.s_box {width: 20%; height: 150px; float: left; padding-top: 45px; background-color: #8c8b89; transition: .3s ease-in-out;}
+.s_box h3 {width: 80%; height: 60px; padding-top: 15px; margin: 0 auto; text-align: center; border: 2px solid #fff; transition: .3s ease-in-out; cursor: pointer;}
+.s_box h3:hover {background-color: #fff; color: #9a927b;}
 
 #intro {width: 100%; height: 500px; margin: 0 auto; text-align: center; color: #fff; padding-top: 125px;}
 #intro h1 {font-size: 4rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
@@ -51,7 +52,7 @@
 
 .about_right {width: 50%; height: 600px; margin: 0 auto; color: #666; padding-top: 125px;}
 .abtn {width: 120px; height: 50px; background-color: #1a3129; border: 0px; color: #fff; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
-.abtn:hover {color: #000; background-color: #fff; border: 1px solid #1a3129;}
+.abtn:hover {background-color: #171d1b;}
 
 #service {width: 95%; height: 750px; margin: 0 auto; text-align: center; padding-top: 150px;}
 .m_box {width: 18%; height: 220px; margin-right: 2%; border-radius: 50%; background-color: #fff; transition: .3s ease-in-out; padding-top: 20px; float: left; margin-top: 75px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); cursor: pointer;}

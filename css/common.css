@@ -87,18 +87,18 @@
     .b ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .b ul a:hover {color: #fff; border-bottom: 3px solid rgb(14, 77, 14);}
     
-    footer {width: 100%; height: auto; margin: 0 auto; background-color: #585754; float: left;}
+    footer {width: 100%; height: auto; margin: 0 auto; background-color: #111; float: left;}
     
-    #f_box {width: 1168px; height: 450px; margin: 0 auto; padding-top: 100px;}
+    #f_box {width: 1178px; height: 450px; margin: 0 auto; padding-top: 100px;}
     
-    .f_logo {width: 300px; height: 300px; float: left; color: #f2f2f2; margin-right: 40px; padding-top: 10px;}
+    .f_logo {width: 300px; height: 300px; float: left; color: #999; margin-right: 40px; padding-top: 10px;}
     
     .f_1 {width: auto; height: auto; float: left; margin-top: 40px; margin-right: 40px; color: #fff;}
-    .f_1 a {color: #fff; transition: .2s}
-    .f_1 a:hover {color: #1a3129;}
+    .f_1 a {color: #999; transition: .2s}
+    .f_1 a:hover {color: #fff;}
     .f_1 ul li {margin-bottom: 10px;}
     
     .f_2 {width: 300px; height: auto; float: right; color: #fff; padding-top: 20px;}
-    .f_2 ul li {margin-bottom: 25px; color: #fff;}
+    .f_2 ul li {margin-bottom: 25px; color: #999;}
     
     }

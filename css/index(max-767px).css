@@ -25,8 +25,9 @@
 
 .select {width: 90%;}
 
-.s_box {width: 100%; height: 100px; float: left; padding-top: 35px; background-color: #1a3129; cursor: pointer; transition: .3s ease-in-out;}
-.s_box:hover {border: 1px solid #1a3129; background-color: #fff; color: #000;}
+.s_box {width: 100%; height: 100px; float: left; padding-top: 10px; background-color: #8c8b89; transition: .3s ease-in-out;}
+.s_box h3 {width: 90%; height: 60px; padding-top: 15px; margin: 0 auto; text-align: center; border: 2px solid #fff; transition: .3s ease-in-out; cursor: pointer;}
+.s_box h3:hover {background-color: #fff; color: #9a927b;}
 
 #intro {width: 100%; height: auto; margin: 0 auto; text-align: center; color: #fff; padding-top: 60px;}
 #intro h1 {font-size: 2.6rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
@@ -53,7 +54,7 @@
 
 .about_right {width: 95%; height: 900px; margin: 0 auto; color: #666; padding-top: 125px;}
 .abtn {width: 120px; height: 50px; background-color: #1a3129; border: 0px; color: #fff; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
-.abtn:hover {color: #000; background-color: #fff; border: 1px solid #1a3129;}
+.abtn:hover {background-color: #171d1b;}
 
 #service {width: 90%; height: 1700px; margin: 0 auto; text-align: center; padding-top: 150px; display: flex; flex-direction: column;}
 .m_box {width: 95%; height: 220px; margin: 0 auto; background-color: #fff; transition: .3s ease-in-out; padding-top: 20px; float: left; margin-top: 25px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); cursor: pointer;}
