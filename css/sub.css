@@ -5,9 +5,123 @@
     font-style: normal;
 }
 
+@media (max-width:767px){
+
+    header {width: 100%; height: 525px; background-image: url(../img/header_sub.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
+    
+    #intro {width: 100%; height: 200px; margin: 0 auto; text-align: center; color: #fff; padding-top: 31px;}
+    #intro h1 {font-size: 4rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
+    
+    #wrap {width: 100%; height: auto; margin: 0 auto; padding-top: 100px; display: flex; flex-direction: column;}
+    #wrap_background {width: 100%; height: auto; margin: 0 auto; background-color: #f2f2f2;}
+    
+    #left {width: 95%; height: auto; margin: 0 auto; display: flex; flex-direction: column;}
+    
+    .l_box {width: 100%; height: auto; margin-bottom: 100px; float: left;}
+    .l_box img {width: 100%; height: 400px; cursor: pointer; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .l_box a {font-family: "Hahmlet-Regular"; transition: .3s ease-in-out; cursor: pointer; color: #444;}
+    .l_box a:hover {color: #1a3129;}
+    .l_box h2 {font-family: "Hahmlet-Regular";}
+    
+    .m_box {width: 100%; height: auto; margin-bottom: 100px; float: left;}
+    .m_img {width: 32%; height: 150px; margin: 3px; float: left; overflow: hidden; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .m_img img {width: 100%; height: 200px; cursor: pointer; transition: .4s ease-in;}
+    .m_img img:hover {transform: scale(1.05);}
+    .m_box h2 {font-family: "Hahmlet-Regular";}
+    
+    .c_box {width: 100%; height: 630px; background-color: #8c8b89; color: #fff; padding: 20px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207); float: left;}
+    .cbtn {width: 120px; height: 50px; background-color: #978464; text-align: center; color: #fff; padding-top: 15px; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);}
+    .cbtn:hover {background-color: #6e6047;}
+    
+    .l_btn {width: 100px; height: 50px; background-color: #1a3129; text-align: center; padding-top: 13px; transition: .3s; cursor: pointer; color: #fff; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .l_btn:hover {background-color: #171d1b;}
+    
+    #right {width: 95%; height: auto; margin: 0 auto; padding-top: 100px; display: flex; flex-direction: column;}
+    
+    ::placeholder {color: #fff;}
+    
+    #search {width: 100%; height: auto; margin-bottom: 75px; position: relative;}
+
+    #sea {border: none; width: 100%; height: 40px; padding-left: 20px; border: 1px solid #666; background-color: #fff; color: #000;}
+    .se {position: absolute; right: 20px; top: 61px; cursor: pointer; }
+    
+    #introduce {width: 100%; height: 180px; background-color: #8c8b89; color: #fff; padding: 10px; margin-bottom: 75px;}
+    
+    #tag {width: 100%; height: auto; margin-bottom: 75px; float: left;}
+    .tag li {padding: 5px 10px; margin: 5px; float: left; border: 1px solid #978464; color: #333; border-radius: 20px; cursor: pointer; transition: .3s;}
+    .tag li:hover {background-color: rgba(255, 0, 0, 0.1);}
+    
+    #post {width: 100%; height: auto; margin-bottom: 75px; float: left;}
+    .r_box li {width: 100%; height: auto; margin-bottom: 15px; display: flex; flex-direction: row;}
+    .r_box li img {cursor: pointer;}
+    
+    #insta {width: 100%; height: auto; float: left; margin-bottom: 75px;}
+    #insta img {width: 31%; height: 95px; cursor: pointer; transition: .3s;}
+    #insta img:hover {opacity: 0.8;}
+    
+    }
+
+@media (min-width:768px) and (max-width:1177px){
+
+    header {width: 100%; height: 525px; background-image: url(../img/header_sub.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
+    
+    #intro {width: 100%; height: 200px; margin: 0 auto; text-align: center; color: #fff; padding-top: 31px;}
+    #intro h1 {font-size: 4rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
+    
+    #wrap {width: 90%; height: auto; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
+    #wrap_background {width: 100%; height: auto; margin: 0 auto; background-color: #f2f2f2;}
+    
+    #left {width: 66%; height: auto; margin-bottom: 50px;}
+    
+    .l_box {width: 100%; height: auto; margin-bottom: 100px; display: flex; flex-direction: column;}
+    .l_box img {width: 100%; height: 500px; cursor: pointer; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .l_box a {font-family: "Hahmlet-Regular"; transition: .3s ease-in-out; cursor: pointer; color: #444;}
+    .l_box a:hover {color: #1a3129;}
+    .l_box h2 {font-family: "Hahmlet-Regular";}
+    
+    .m_box {width: 100%; height: auto; margin-bottom: 100px;}
+    .m_img {width: 32%; height: 175px; margin: 3px; float: left; overflow: hidden; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .m_img img {width: 100%; height: 100%; cursor: pointer; transition: .4s ease-in;}
+    .m_img img:hover {transform: scale(1.05);}
+    .m_box h2 {font-family: "Hahmlet-Regular";}
+    
+    .c_box {width: 100%; height: 620px; background-color: #8c8b89; color: #fff; padding: 20px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .cbtn {width: 120px; height: 50px; background-color: #978464; text-align: center; color: #fff; padding-top: 15px; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);}
+    .cbtn:hover {background-color: #6e6047;}
+    
+    .l_btn {width: 100px; height: 50px; background-color: #1a3129; text-align: center; padding-top: 13px; transition: .3s; cursor: pointer; color: #fff; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+    .l_btn:hover {background-color: #171d1b;}
+    
+    #right {width: 26%; height: auto; padding-top: 50px;}
+    
+    ::placeholder {color: #fff;}
+    
+    #search {width: 100%; height: auto; margin-bottom: 75px; position: relative;}
+
+    #sea {border: none; width: 100%; height: 40px; padding-left: 20px; border: 1px solid #666; background-color: #fff; color: #000;}
+    .se {position: absolute; right: 20px; top: 61px; cursor: pointer; }
+    
+    #introduce {width: 100%; height: auto; background-color: #8c8b89; color: #fff; padding: 10px; margin-bottom: 75px;}
+    
+    #tag {width: 100%; height: auto; margin-bottom: 75px; float: left;}
+    .tag li {padding: 5px 10px; margin: 5px; float: left; border: 1px solid #978464; color: #333; border-radius: 20px; cursor: pointer; transition: .3s;}
+    .tag li:hover {background-color: rgba(255, 0, 0, 0.1);}
+    
+    #post {width: 100%; height: auto; margin-bottom: 75px; float: left;}
+    .r_box li {width: 100%; height: auto; margin-bottom: 15px; display: flex; flex-direction: row;}
+    .r_box li img {cursor: pointer;}
+    
+    #insta {width: 100%; height: auto; float: left;}
+    #insta img {width: 31%; height: 80px; cursor: pointer; transition: .3s;}
+    #insta img:hover {opacity: 0.8;}
+    
+    }
+
+@media (min-width:1178px){
+
 header {width: 100%; height: 525px; background-image: url(../img/header_sub.jpg); background-position: center; background-size:cover; background-attachment: fixed; position: relative;}
 
-#intro {width: 100%; height: 500px; margin: 0 auto; text-align: center; color: #fff; padding-top: 31px;}
+#intro {width: 100%; height: 200px; margin: 0 auto; text-align: center; color: #fff; padding-top: 31px;}
 #intro h1 {font-size: 4rem; font-family: "Hahmlet-Regular"; font-weight: lighter;}
 
 #wrap {width: 1178px; height: 4100px; margin: 0 auto; padding-top: 100px; display: flex; justify-content: space-between;}
@@ -16,27 +130,45 @@ header {width: 100%; height: 525px; background-image: url(../img/header_sub.jpg)
 #left {width: 66%; height: 2500px;}
 
 .l_box {width: 100%; height: auto; margin-bottom: 100px; display: flex; flex-direction: column;}
-.l_box img {width: 100%; height: 500px; cursor: pointer;}
+.l_box img {width: 100%; height: 500px; cursor: pointer; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
 .l_box a {font-family: "Hahmlet-Regular"; transition: .3s ease-in-out; cursor: pointer; color: #444;}
 .l_box a:hover {color: #1a3129;}
 .l_box h2 {font-family: "Hahmlet-Regular";}
 
 .m_box {width: 100%; height: auto; margin-bottom: 100px;}
-.m_img {width: 32%; height: 200px; margin: 3px; float: left; overflow: hidden;}
-.m_img img {width: 100%; height: 200px; cursor: pointer; transition: .5s;}
-.m_img img:hover {transform: scale(1.15);}
+.m_img {width: 32%; height: 200px; margin: 3px; float: left; overflow: hidden; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+.m_img img {width: 100%; height: 200px; cursor: pointer; transition: .4s ease-in;}
+.m_img img:hover {transform: scale(1.05);}
 .m_box h2 {font-family: "Hahmlet-Regular";}
 
-.c_box {width: 100%; height: 620px; background-color: #8c8b89; color: #fff; padding: 20px;}
-.cbtn {width: 120px; height: 50px; background-color: #978464; text-align: center; color: #fff; padding-top: 15px; cursor: pointer; font-size: 13px; transition: .3s ease-out;}
+.c_box {width: 100%; height: 620px; background-color: #8c8b89; color: #fff; padding: 20px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+.cbtn {width: 120px; height: 50px; background-color: #978464; text-align: center; color: #fff; padding-top: 15px; cursor: pointer; font-size: 13px; transition: .3s ease-out; box-shadow: 0.1px 0.1px 5px 0.1px rgb(0, 0, 0);}
 .cbtn:hover {background-color: #6e6047;}
 
-.l_btn {width: 100px; height: 50px; background-color: #1a3129; text-align: center; padding-top: 13px; transition: .3s; cursor: pointer; color: #fff}
+.l_btn {width: 100px; height: 50px; background-color: #1a3129; text-align: center; padding-top: 13px; transition: .3s; cursor: pointer; color: #fff; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
 .l_btn:hover {background-color: #171d1b;}
 
 #right {width: 26%; height: 2500px; padding-top: 50px;}
 
 ::placeholder {color: #fff;}
 
+#search {width: 100%; height: auto; margin-bottom: 75px; position: relative;}
+
+#sea {border: none; width: 100%; height: 40px; padding-left: 20px; border: 1px solid #666; background-color: #fff; color: #000;}
+.se {position: absolute; right: 20px; top: 61px; cursor: pointer; }
+
+#introduce {width: 100%; height: 250px; background-color: #8c8b89; color: #fff; padding: 10px; margin-bottom: 75px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+
+#tag {width: 100%; height: auto; margin-bottom: 75px; float: left;}
 .tag li {padding: 5px 10px; margin: 5px; float: left; border: 1px solid #978464; color: #333; border-radius: 20px; cursor: pointer; transition: .3s;}
 .tag li:hover {background-color: rgba(255, 0, 0, 0.1);}
+
+#post {width: 100%; height: auto; margin-bottom: 75px; float: left;}
+.r_box li {width: 100%; height: auto; margin-bottom: 15px; display: flex; flex-direction: row;}
+.r_box li img {cursor: pointer;}
+
+#insta {width: 100%; height: auto; float: left;}
+#insta img {width: 31%; height: 95px; cursor: pointer; transition: .3s;}
+#insta img:hover {opacity: 0.8;}
+
+}
