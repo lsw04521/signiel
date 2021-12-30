@@ -17,7 +17,7 @@
     .b ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .b ul a:hover {color: #fff; border-bottom: 2px solid #fff;}
     
-    footer {width: 100%; height: auto; margin: 0 auto; background-color: #585754; float: left;}
+    footer {width: 100%; height: auto; margin: 0 auto; background-color: #111; float: left;}
     
     #f_box {width: 100%; height: auto; margin: 0 auto; padding-left: 10px; padding-top: 100px; display: flex; flex-direction: column;}
     
@@ -52,7 +52,7 @@
     .b ul a {color: #ccc; font-size: 20px; transition: .2s;}
     .b ul a:hover {color: #fff; border-bottom: 2px solid #fff;}
     
-    footer {width: 100%; height: 450px; margin: 0 auto; background-color: #585754; float: left;}
+    footer {width: 100%; height: 450px; margin: 0 auto; background-color: #111; float: left;}
     
     #f_box {width: 95%; height: 450px; margin: 0 auto; padding-top: 100px; display: flex;}
     
