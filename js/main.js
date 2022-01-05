@@ -8,6 +8,7 @@
 
   //review
 $(function(){
+
   function left() {
       $('#guest_container li:last').prependTo('#guest_container');
       $('#guest_container').css('margin-left', -386);
@@ -30,11 +31,4 @@ $(function(){
   
   setInterval(slide, 3000);
   
-  $('.review_left').click(function(){
-      left();
-  });
-  
-  $('.review_right').click(function(){
-      right();
-  });
 });
