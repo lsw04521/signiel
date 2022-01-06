@@ -68,12 +68,12 @@
 .bbtn:hover {background-color: #8c8b89; border: 0px;}
 
 #room {width: 1168px; height: 1000px; margin: 0 auto; text-align: center; padding-top: 100px;}
-.room_case {width: 1168px; height: auto; margin: 0 auto; float: left; padding-left: 11px; padding-top: 100px;}
+.room_case {width: 1168px; height: auto; margin: 0 auto; float: left; padding-top: 100px;}
 
 .room1 img {transition: .3s; cursor: pointer;}
 .room1:hover img {filter: invert(0.2);}
 
-.room1 {width: 32%; height: 500px; float: left; margin-right: 5px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
+.room1 {width: 32%; height: 500px; float: left; margin: 7.5px; box-shadow: 0.1px 0.1px 10px 0.1px rgb(207, 207, 207);}
 .room1:hover .room_text {background-color: #8c8b89; color: #fff;}
 
 .room_text {width: 100%; height: 250px; background-color: #fff; float: left; padding-left: 30px; padding-right: 30px; padding-top: 35px;
